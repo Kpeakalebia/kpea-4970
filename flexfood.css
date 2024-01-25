@@ -1,0 +1,106 @@
+
+.header {
+  background-color:gray;
+  padding: 10px;
+  justify-content: space-between;
+  display: flex;
+  font-size: 20px;
+  flex-grow: 1;
+  border-radius: 20px;
+}
+.header1{
+text-align: center;
+border: 2px;
+font-size: 100%;
+font-weight: 400;
+}
+.Welcome {
+  display: flex;
+  background-color: lightcyan;
+  justify-content: space-around;
+}
+.Welcome img {
+  margin: 20px;
+}
+.Welcome h1{
+text-align: right;
+font-size: 30px;
+font: bolder;
+color: brown;
+padding: 50px;
+}
+.header ul{
+  display: flex;
+  list-style: none;
+  color: blue;
+}
+.header li{
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+  background-color: lightcyan;
+}
+.menu {
+  color: bisque;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: center; */
+  background-color: lavender;
+}
+.food1 {
+  /* display: grid; */
+  border-radius: 20px;
+  background-color: lightcyan;
+  margin: 10px;
+  color: blue;
+  text-align: center;
+}
+.food1 img{
+  width: 60%;
+  height: 200px;
+}
+section h2{
+color: blue;
+font-size: xx-large;
+padding-top: 10px;
+}
+section label{
+  color: blue;
+  padding-top: 10px;
+}
+.row{
+  width: 85;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: white;
+  font-weight: 500px;
+}
+.col{
+  flex-basis: 25%;
+  padding: 10px;
+}
+.red{
+  width: 50px;
+  height: 20px;
+}
+.footer{
+  background-color: brown;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 40px;
+  width: 1300px;
+  color: lavender;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+li:hover {
+  background-color: black;
+  color: white;
+  
+}
